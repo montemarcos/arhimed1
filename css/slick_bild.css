@@ -1,0 +1,47 @@
+.pocetni_slide 
+{background-color:rgba(0,0,0,0.5);
+    padding-top:15px;
+    padding-bottom: 15px;
+     border-top: 4px solid #dd0008;
+ 
+}
+
+.usluge_slide{
+	text-align:center;
+	height:400px;
+    width:400px;
+    background:black;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 200px;
+    margin-left:25%;
+    
+	
+}
+
+.inner {
+width: 350px !important;
+    
+    margin-left: 25px;
+    padding-top: 25px;
+}
+.inner img{
+  display: inline-block;
+}
+
+
+
+#slider {
+    width:250px;
+    background:#aaa;
+}
+
+#slider a {
+    background:blue;
+    display:block;
+    color:#fff;
+    width:60px;
+    height:60px;
+    padding:10px;
+    margin:5px
+}

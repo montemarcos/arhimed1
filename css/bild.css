@@ -1,0 +1,204 @@
+/* dodatak */
+#logo {
+    float: left;
+    font-size: 28px;
+    line-height: 100%;
+    position: relative;
+    padding-top: 15px;
+    z-index: 1;
+	
+}
+
+
+/* footer
+ * --------------------------------------- */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 143px;
+    background-color:rgba(255,255,255,0.89);
+    
+	
+  }
+
+/* slajder ikone futer
+ * --------------------------------------- */
+
+.arhiuvod, .pressuvod, .pressdigestuvod, .alertclipuvod, .analizauvod, .monitoringuvod, .socialuvod, .istrazivanjeuvod, .prevoduvod, .transkriptuvod {font-size: 14px; color:black; padding-top:10px;}
+.arhimed, .pressclip, .monitoring, .social, .istrazivanje, .prevod, .transkript  {text-align: center; padding-top:30px; padding-bottom:30px; }
+.pressdigest, .alertclip, .analiza {text-align: center; padding-top:25px; padding-bottom:30px;}
+.arhimed, .pressclip, .pressdigest, .alertclip, .analiza, .monitoring, .social, .istrazivanje, .prevod, .transkript img {
+ display: inline-block;}
+
+
+
+.arhimed:hover, .pressclip:hover, .pressdigest:hover, .alertclip:hover, .analiza:hover, .monitoring:hover, .social:hover, .istrazivanje:hover, .prevod:hover, .transkript:hover { background:#dd0008; }
+
+
+.arhimed:hover > .arhimage { content: url("../imgs/slider_icons/arhimed_over.png"); }
+.arhimed:hover > .arhiuvod { color: white !important; }
+
+.pressclip:hover > .pressimage { content: url("../imgs/slider_icons/pressclip_over.png"); }
+.pressclip:hover > .pressuvod { color: white !important; }
+
+.pressdigest:hover > .pressdigestimage { content: url("../imgs/slider_icons/pressdigest_over.png"); }
+.pressdigest:hover > .pressdigestuvod { color: white !important; }
+
+.alertclip:hover > .alertclipimage { content: url("../imgs/slider_icons/alertclip_over.png"); }
+.alertclip:hover > .alertclipuvod { color: white !important; }
+
+.analiza:hover > .analizaimage { content: url("../imgs/slider_icons/analiza_over.png"); }
+.analiza:hover > .analizauvod { color: white !important; }
+
+.monitoring:hover > .monitoringimage { content: url("../imgs/slider_icons/monitoring_over.png"); }
+.monitoring:hover > .monitoringuvod { color: white !important; }
+
+.social:hover > .socialimage { content: url("../imgs/slider_icons/social_over.png"); }
+.social:hover > .socialuvod { color: white !important; }
+
+.istrazivanje:hover > .istrazivanjeimage { content: url("../imgs/slider_icons/istrazivanje_over.png"); }
+.istrazivanje:hover > .istrazivanjeuvod { color: white !important; }
+
+
+.prevod:hover > .prevodimage { content: url("../imgs/slider_icons/prevod_over.png"); }
+.prevod:hover > .prevoduvod { color: white !important; }
+
+.transkript:hover > .transkriptimage { content: url("../imgs/slider_icons/transkript_over.png"); }
+.transkript:hover > .transkriptuvod { color: white !important; }
+
+
+/*bigslide2*/
+.okvirslajda {
+background-color:rgba(0,0,0,0.89); border-radius: 50%;
+	width: 400px;
+	height: 400px;  margin-left: 25%; margin-top:-15%;     padding-left: 37px;
+    padding-right: 37px;
+    padding-top: 27px;}
+.okvirslajda img {display: inline-block;}
+.slide2 {color: white; font-size: 36px; font-weight: 300; }
+.slideuvod {color: white; font-size: 14px; line-height: 20px; font-weight: 300;}
+
+
+.li:active {background-color: #2a2a2a;}
+
+.forma {background-color: rgba(255,255,255,0.80); border-radius:4px; padding:35px;}
+
+.intro {
+	float:left;
+	color:white;
+	font-weight:300;
+	font-size:36px;
+	text-align:left;
+	line-height:46px;
+	text-shadow: 1px 2px 1px rgba(0,0,0,0.6);
+	}
+
+
+.slajderpad {
+
+padding-left:0;
+padding-top:85px;
+
+}
+
+.okvirslajdera {
+padding-left:25px;
+    padding-right:25px;
+
+}
+
+h1{
+		font-size: 5em;
+		font-family: 'Roboto', sans-serif;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+		overflow: hidden;
+	}
+	
+	#section4 {
+		background-image: url(../imgs/bkg_pg2.jpg);
+		background-position: bottom left;
+		background-repeat: no-repeat;
+		}
+	
+	#section2 {
+		background-image: url(../imgs/bkg_pg3.jpg);
+		background-position: bottom left;
+		background-repeat: no-repeat;
+		
+		}
+#section3 {
+		background-image: url(../imgs/bkg_pg4.jpg);
+		background-position: bottom left;
+		background-repeat: no-repeat;
+		
+		}
+
+	#myVideo{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
+
+
+
+	/* Layer with position absolute in order to have it over the video
+	* --------------------------------------- */
+	#section0 .layer{
+		position: absolute;
+		z-index: 4;
+		width: 100%;
+		left: 0;
+		top: 23%;
+	}
+
+	/*solves problem with overflowing video in Mac with Chrome */
+	#section0{
+		overflow: hidden;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+
+
+.zadnjislajd {
+background-color:rgba(255,255,255,0.9);
+    text-align: left;
+    margin-top:-90px;
+
+}
+.kontaktfut {
+background:url(../imgs/bkg_kontakt.png) #000000;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    text-align: left;
+
+}
+.mapa {
+padding-left:0px !important;
+padding-right:0px !important;
+
+}

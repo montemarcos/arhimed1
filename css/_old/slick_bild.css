@@ -1,0 +1,116 @@
+.pocetni_slide 
+{background-color:rgba(0,0,0,0.5);
+    padding-top:15px;
+    padding-bottom: 15px;
+     border-top: 4px solid #dd0008;
+ 
+}
+
+.usluge_slide{
+	text-align:center;
+	height:400px;
+    width:400px;
+    background:black;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 200px;
+    margin-left:25%;
+    
+	
+}
+
+.inner {
+width: 350px !important;
+    
+    margin-left: 25px;
+    padding-top: 25px;
+}
+.inner img{
+  display: inline-block;
+}
+
+
+
+#slider {
+    width:250px;
+    background:#aaa;
+}
+
+#slider a {
+    background:blue;
+    display:block;
+    color:#fff;
+    width:60px;
+    height:60px;
+    padding:10px;
+    margin:5px
+}
+
+h1{
+		font-size: 5em;
+		font-family: 'Roboto', sans-serif;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+		overflow: hidden;
+	}
+	
+	#section4 {
+		background-image: url(imgs/bkg_pg2.jpg);
+		background-position: bottom left;
+		background-repeat: no-repeat;
+		}
+	
+	#section2 {
+		background-image: url(imgs/bkg_pg3.jpg);
+		background-position: bottom left;
+		background-repeat: no-repeat;
+		
+		}
+
+	#myVideo{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
+
+
+
+	/* Layer with position absolute in order to have it over the video
+	* --------------------------------------- */
+	#section0 .layer{
+		position: absolute;
+		z-index: 4;
+		width: 100%;
+		left: 0;
+		top: 23%;
+	}
+
+	/*solves problem with overflowing video in Mac with Chrome */
+	#section0{
+		overflow: hidden;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
